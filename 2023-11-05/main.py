@@ -44,7 +44,7 @@ def main():
     print(f'INFO:     Documentation is available at - '
           f'http://127.0.0.1:5000/docs')
 
-    uvicorn.run("task:app",
+    uvicorn.run("main:app",
                 host="127.0.0.1",
                 port=5000
                 )
